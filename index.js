@@ -46,7 +46,7 @@ const display = (image, sub, code, day, period, name, number, email) => {
     Subject Name  : ${sub}<br>
     Subject Code  : ${code}<br>
     Day           : ${day}<br>
-    Class Duration: (${period})PM
+    Class Duration: (${period})
     
     `
 }
@@ -55,56 +55,56 @@ ah.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ah", "Ordinary Differential Equations", "223703", "Sunday", "11:15 - 12:00", "Md. Aynul Habib", "01737469911", "n/a");
+    display("ah", "Ordinary Differential Equations", "223703", "Sunday", "11:15 AM - 12:00 PM", "Md. Aynul Habib", "01737469911", "n/a");
 })
 mh.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("mh", "Calculus-II", "223701", "Sunday", "12:00 - 12:45", "Md. Mahtab Hossain Mondal", "01720252779", "n/a");
+    display("mh", "Calculus-II", "223701", "Sunday", "12:00 PM - 12:45 PM", "Md. Mahtab Hossain Mondal", "01720252779", "n/a");
 })
 ri.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ri", "Ordinary Differential Equations", "223703", "Monday", "11:15 - 12:00", "Md. Rafiqul Islam", "01712554536", "n/a");
+    display("ri", "Ordinary Differential Equations", "223703", "Monday", "11:15 AM - 12:00 PM", "Md. Rafiqul Islam", "01712554536", "n/a");
 })
 arj.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("arj", "Computer Techniques Programming with Fortran", "223705", "Monday", "12:00 - 12:45", "Md. Arifur Rahman Jewel", "01764196929", "n/a");
+    display("arj", "Computer Techniques Programming with Fortran", "223705", "Monday", "12:00 PM - 12:45 PM", "Md. Arifur Rahman Jewel", "01764196929", "n/a");
 })
 ns.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ns", "Ordinary Differential Equations", "223703", "Tuesday", "09:45 - 10:30", "Nasrin Sultana", "01716695719", "n/a");
+    display("ns", "Ordinary Differential Equations", "223703", "Tuesday", "09:45 AM - 10:30 AM", "Nasrin Sultana", "01716695719", "n/a");
 })
 np.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("np", "Calculus-II", "223701", "Tuesday", "10:30 - 11:15", "Nirmal Chandra Paul", "n/a", "n/a");
+    display("np", "Calculus-II", "223701", "Tuesday", "10:30 AM - 11:15 AM", "Nirmal Chandra Paul", "n/a", "n/a");
 })
 am.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("am", "Calculus-II", "223701", "Wednesday", "10:30 - 11:15", "Md. Alam Mondal", "01712210113", "n/a");
+    display("am", "Calculus-II", "223701", "Wednesday", "10:30 AM - 11:15 AM", "Md. Alam Mondal", "01712210113", "n/a");
 })
 ak.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ak", "Computer Techniques Programming with Fortran", "223705", "Wednesday", "11:15 - 12:00", "Md. Abul Kalam Asad", "01716390242", "n/a");
+    display("ak", "Computer Techniques Programming with Fortran", "223705", "Wednesday", "11:15 AM - 12:00 PM", "Md. Abul Kalam Asad", "01716390242", "n/a");
 })
 
 rk.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("rk", "Non Credit English(Compulsory)", "221109", "Sunday", "12:45 - 01:30", "Md. Rezaul Karim", "n/a", "n/a");
+    display("rk", "Non Credit English(Compulsory)", "221109", "Sunday", "12:45 PM - 01:30 PM", "Md. Rezaul Karim", "n/a", "n/a");
 })
 
 
@@ -112,56 +112,56 @@ ts.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ts", "Non Credit English(Compulsory)", "221109", "Monday", "12:45 - 01:30", "Md. Tipu Sultan", "n/a", "n/a");
+    display("ts", "Non Credit English(Compulsory)", "221109", "Monday", "12:45 PM - 01:30 PM", "Md. Tipu Sultan", "n/a", "n/a");
 })
 
 fm.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("fm", "Non Credit English(Compulsory)", "221109", "Tuesday", "12:45 - 01:30", "Fakhrul", "n/a", "n/a");
+    display("fm", "Non Credit English(Compulsory)", "221109", "Tuesday", "12:45 PM - 01:30 PM", "Fakhrul", "n/a", "n/a");
 })
 
 mr.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("mr", "Non Credit English(Compulsory)", "221109", "Wednesday", "12:45 - 01:30", "Saju", "n/a", "n/a");
+    display("mr", "Non Credit English(Compulsory)", "221109", "Wednesday", "12:45 PM - 01:30 PM", "Saju", "n/a", "n/a");
 })
 
 tt.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("tt", "Non Credit English(Compulsory)", "221109", "Thursday", "12:45 - 01:30", "Tania", "01718859246", "n/a");
+    display("tt", "Non Credit English(Compulsory)", "221109", "Thursday", "12:45 PM - 01:30 PM", "Tania", "01718859246", "n/a");
 })
 
 ap.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ap", "Physics-III(Electricity and Modern Physics)", "222707", "Tuesday", "11:15 - 12:00", "Anamika Paul", "n/a", "n/a");
+    display("ap", "Physics-III(Electricity and Modern Physics)", "222707", "Tuesday", "11:15 AM - 12:00 PM", "Anamika Paul", "n/a", "n/a");
 })
 
 ai.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ai", "Physics-III(Electricity and Modern Physics)", "222707", "Monday", "10:30 - 11:15", "Aminul Islam", "n/a", "n/a");
+    display("ai", "Physics-III(Electricity and Modern Physics)", "222707", "Monday", "10:30 AM - 11:15 AM", "Aminul Islam", "n/a", "n/a");
 })
 
 ahck.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ahck", "Method of Statistics", "223609", "Monday", "01:30 - 02:15", "Aminul/Kamrul", "n/a", "n/a");
+    display("ahck", "Method of Statistics", "223609", "Monday", "01:30 PM - 02:15 PM", "Aminul/Kamrul", "n/a", "n/a");
 })
 
 khih.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("khih", "Method of Statistics", "223609", "Wednesday", "12:00 - 12:45", "Kamrul/Ibrahim", "n/a", "n/a");
+    display("khih", "Method of Statistics", "223609", "Wednesday", "12:00 PM - 12:45 PM", "Kamrul/Ibrahim", "n/a", "n/a");
 })
 
 
@@ -215,13 +215,13 @@ color.addEventListener("click",function(){
 landscape.addEventListener("click",function(){
     if (landscape.textContent == "Landscape"){
         landscape.innerHTML = "Potrait";
-        table.style.marginTop = "-185px";
+        // table.style.marginTop = "-185px";
         table.classList.remove("default");
         details.classList.remove("det-style");
     }
     else{
         landscape.innerHTML = "Landscape";
-        table.style.marginTop = "-60px";
+        // table.style.marginTop = "-60px";
         table.classList.add("default");
         details.classList.add("det-style");
     }
