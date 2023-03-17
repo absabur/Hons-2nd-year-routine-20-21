@@ -39,7 +39,7 @@ td,th{
     min-width: 150px;
 }
 td p{
-    height: 100px;
+    height: 90px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -170,6 +170,9 @@ p:hover{
     }
     .width-problem{
         min-width: 150px;
+    }
+    .cap{
+        margin-top: 20px;
     }
 }
 @media screen and (max-width: 700px) {
