@@ -11,6 +11,7 @@ const p = document.querySelectorAll("p");
 const landscape = document.querySelector(".landscape");
 const colorSec = document.querySelector(".color-sec");
 
+
 const ah = table.querySelector(".ah");
 const mh = table.querySelector(".mh");
 const ri = table.querySelector(".ri");
@@ -40,13 +41,13 @@ const display = (image, sub, code, day, period, name, number, email) => {
     cap.style.display = "none";
     img.innerHTML = `<img src="images/${image}.jpg" alt="">`;
     para.innerHTML = `
-    Teacher name  : ${name}<br>
-    Techer Mobile : ${number}<br>
-    Teacer Email  : ${email}<br>
-    Subject Name  : ${sub}<br>
-    Subject Code  : ${code}<br>
-    Day           : ${day}<br>
-    Class Duration: (${period})
+    <b>Teacher name  :</b> ${name}<br>
+    <b>Techer Mobile :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="tel:${number}">${number}</a><br>
+    <b>Teacer Email  :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="mailto:${email}">${email}</a><br>
+    <b>Subject Name  :</b> ${sub}<br>
+    <b>Subject Code  :</b> ${code}<br>
+    <b>Day           :</b> ${day}<br>
+    <b>Class Duration:</b> (${period})
     
     `
 }
@@ -55,31 +56,31 @@ ah.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ah", "Ordinary Differential Equations", "223703", "Sunday", "11:15 AM - 12:00 PM", "Md. Aynul Habib", "01737469911", "n/a");
+    display("ah", "Ordinary Differential Equations", "223703", "Sunday", "11:15 AM - 12:00 PM", "Md. Aynul Habib", "01737469911", "aynul.habib.du@gmail.com");
 })
 mh.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("mh", "Calculus-II", "223701", "Sunday", "12:00 PM - 12:45 PM", "Md. Mahtab Hossain Mondal", "01720252779", "n/a");
+    display("mh", "Calculus-II", "223701", "Sunday", "12:00 PM - 12:45 PM", "Md. Mahtab Hossain Mondal", "01720252779", "mahtabmath.bogra@gmail.com");
 })
 ri.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ri", "Ordinary Differential Equations", "223703", "Monday", "11:15 AM - 12:00 PM", "Md. Rafiqul Islam", "01712554536", "n/a");
+    display("ri", "Ordinary Differential Equations", "223703", "Monday", "11:15 AM - 12:00 PM", "Md. Rafiqul Islam", "01712554536", "rafiqulmaths24031970@gmail.com");
 })
 arj.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("arj", "Computer Techniques Programming with Fortran", "223705", "Monday", "12:00 PM - 12:45 PM", "Md. Arifur Rahman Jewel", "01764196929", "n/a");
+    display("arj", "Computer Techniques Programming with Fortran", "223705", "Monday", "12:00 PM - 12:45 PM", "Md. Arifur Rahman Jewel", "01764196929", "mirjewel@gmail.com");
 })
 ns.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ns", "Ordinary Differential Equations", "223703", "Tuesday", "09:45 AM - 10:30 AM", "Nasrin Sultana", "01716695719", "n/a");
+    display("ns", "Ordinary Differential Equations", "223703", "Tuesday", "09:45 AM - 10:30 AM", "Nasrin Sultana", "01716695719", "nasrinsultanamaths@gmail.com");
 })
 np.addEventListener("click",() => {
     details.style.display = "flex";
@@ -91,13 +92,13 @@ am.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("am", "Calculus-II", "223701", "Wednesday", "10:30 AM - 11:15 AM", "Md. Alam Mondal", "01712210113", "n/a");
+    display("am", "Calculus-II", "223701", "Wednesday", "10:30 AM - 11:15 AM", "Md. Alam Mondal", "01712210113", "alammondal.bd@gmail.com");
 })
 ak.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("ak", "Computer Techniques Programming with Fortran", "223705", "Wednesday", "11:15 AM - 12:00 PM", "Md. Abul Kalam Asad", "01716390242", "n/a");
+    display("ak", "Computer Techniques Programming with Fortran", "223705", "Wednesday", "11:15 AM - 12:00 PM", "Md. Abul Kalam Asad", "01716390242", "asadmath.bogra@gmail.com");
 })
 
 rk.addEventListener("click",() => {
