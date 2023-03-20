@@ -42,8 +42,8 @@ const display = (image, sub, code, day, period, name, number, email) => {
     img.innerHTML = `<img src="images/${image}.jpg" alt="">`;
     para.innerHTML = `
     <b>Teacher name  :</b> ${name}<br>
-    <b>Techer Mobile :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="tel:${number}">${number}</a><br>
-    <b>Teacer Email  :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="mailto:${email}">${email}</a><br>
+    <b>Teacher Mobile :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="tel:${number}">${number}</a><br>
+    <b>Teacher Email  :</b> <a style="color:black; background-color:skyblue;border-radius:5px; padding:5px;" href="mailto:${email}">${email}</a><br>
     <b>Subject Name  :</b> ${sub}<br>
     <b>Subject Code  :</b> ${code}<br>
     <b>Day           :</b> ${day}<br>
