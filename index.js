@@ -1,7 +1,7 @@
 const table = document.querySelector("table");
 const main = document.querySelector(".main");
 const cap = document.querySelector(".cap");
-const details = document.querySelector(".details");
+const details = document.querySelector("#details");
 const img = details.querySelector(".img");
 const para = details.querySelector(".para");
 const backL = details.querySelector(".back-l");
@@ -214,16 +214,12 @@ color.addEventListener("click",function(){
 })
 
 landscape.addEventListener("click",function(){
-    if (landscape.textContent == "Landscape"){
-        landscape.innerHTML = "Potrait";
-        // table.style.marginTop = "-185px";
-        table.classList.remove("default");
-        details.classList.remove("det-style");
+    if (landscape.textContent == "Potrait"){
+        landscape.innerHTML = "Landscape";
+        table.classList.add("default");
     }
     else{
-        landscape.innerHTML = "Landscape";
-        // table.style.marginTop = "-60px";
-        table.classList.add("default");
-        details.classList.add("det-style");
+        landscape.innerHTML = "Potrait";
+        table.classList.remove("default");
     }
 })
