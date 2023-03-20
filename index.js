@@ -47,8 +47,8 @@ const display = (image, sub, code, day, period, name, number, email) => {
     <b>Subject Name  :</b> ${sub}<br>
     <b>Subject Code  :</b> ${code}<br>
     <b>Day           :</b> ${day}<br>
-    <b>Class Duration:</b> (${period})
-    
+    <b>Class Duration:</b> (${period})<br>
+    <b style="color:red;">[বি: দ্র: জরুরি প্রয়োজন ছাড়া ফোন দেওয়া নিষেধ।]<b>
     `
 }
 
