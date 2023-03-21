@@ -86,7 +86,7 @@ np.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("np", "Calculus-II", "223701", "Tuesday", "10:30 AM - 11:15 AM", "Nirmal Chandra Paul", "n/a", "n/a");
+    display("np", "Calculus-II", "223701", "Tuesday", "10:30 AM - 11:15 AM", "Nirmal Chandra Paul", "01731809580", "n/a");
 })
 am.addEventListener("click",() => {
     details.style.display = "flex";
