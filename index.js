@@ -162,7 +162,7 @@ khih.addEventListener("click",() => {
     details.style.display = "flex";
     table.style.display = "none";
     cap.style.display = "none";
-    display("khih", "Method of Statistics", "223609", "Wednesday", "12:00 PM - 12:45 PM", "Kamrul/Ibrahim", "n/a", "n/a");
+    display("khih", "Method of Statistics", "223609", "Wednesday", "12:00 PM - 12:45 PM", "Ibrahim Hossain / Kamrul", "n/a", "n/a");
 })
 
 
