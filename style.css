@@ -15,7 +15,7 @@ html{
     justify-content: center;
     flex-direction: column;
     font-family: 'Josefin Sans', sans-serif;
-    transition: all 0.7s;
+    transition: all 0.5s;
     background-color: antiquewhite;
 }
 .cap{
@@ -36,7 +36,17 @@ html{
     height: 100px;
     border-radius: 50%;
 }
-
+.current-date{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.time, .dates{
+    width: 50%;
+    text-align: center;
+    color: black;
+}
 .color-sec{
     width: 60%;
     display: flex;
@@ -86,7 +96,7 @@ tr p{
     text-align: center;
     background-color: rgb(72, 196, 119);
     border: 4px dotted red;
-    transition: all 0.5s;
+    transition: all 0.7s;
     font-weight: bolder;
     font-size: 1.05rem;
     cursor: pointer;
@@ -190,6 +200,9 @@ tr p:hover{
     .default{
         transform: rotate(90deg) scale(0.5);
         margin-top: 30px;
+    }
+    .cap{
+        font-size: 1rem;
     }
   
 }
